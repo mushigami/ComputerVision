@@ -14,7 +14,7 @@ import numpy as np
 
 #%% storing images face detection
 images = []
-path = "C:\\Users\\cea6abt\\Documents\\others\\programming\\udemy\\ComputerVision\\Computer_Vision_A_Z_Template_Folder\\Module 1 - Face Recognition\\images\\*.*"
+path = "C:\\Users\\CEA6ABT\\Documents\\resources\\ComputerVision\\Computer_Vision_A_Z_Template_Folder\\images\\*.*"
 for file in glob.glob(path):
     print(file)
     a= cv2.imread(file)
